@@ -1,2 +1,2 @@
-org_name  = var.org_name
+org_name  = "trial-7876974"
 base_url  = "okta.com"
