@@ -1,4 +1,7 @@
 resource "okta_domain" "dev" {
   name   = "spokaneindependent.com"
-  verify = false
+}
+
+resource "okta_domain_verification" "dev" {
+  domain_id = okta_domain.dev.id
 }
