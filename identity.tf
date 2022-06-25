@@ -4,7 +4,7 @@ resource "okta_org_configuration" "dev" {
 }
 
 resource "okta_domain" "dev" {
-  name   = "spokaneindependent.org"
+  name = "spokaneindependent.org"
 }
 
 resource "okta_domain_verification" "dev" {
