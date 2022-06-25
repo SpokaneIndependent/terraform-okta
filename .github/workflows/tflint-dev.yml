@@ -1,4 +1,4 @@
-ame: 'tflint-dev'
+name: 'tflint-dev'
 
 on: 
   push:
