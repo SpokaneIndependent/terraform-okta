@@ -6,7 +6,7 @@ resource "okta_org_configuration" "dev" {
   address_1            = "PO Box 40344"
   city                 = "Spokane"
   state                = "Washington"
-  country              = "United States"
+  country              = "United States of America"
   postal_code          = "99202"
 }
 
